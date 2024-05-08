@@ -1,0 +1,21 @@
+name: randomitemplugin
+version: '${project.version}'
+main: loosa.randomitemplugin.Randomitemplugin
+api-version: '1.20'
+description: A plugin that gives players random items every ten seconds.
+commands:
+  run:
+    description: Start the random item timer.
+    usage: /runplugin
+  stop:
+    description: Stop the random item timer.
+    usage: /stopplugin
+  dev:
+    description: Who made the plugin?
+    usage: /dev
+  info:
+    description: Why does this project exist?
+    usage: /info
+  help:
+    description: Help page.
+    usage: /help
