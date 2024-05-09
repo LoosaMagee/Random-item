@@ -1,8 +1,9 @@
-name: randomitemplugin
-version: '${project.version}'
-main: loosa.randomitemplugin.Randomitemplugin
-api-version: '1.20'
-description: A plugin that gives players random items every ten seconds.
+name: RandomItemPlugin
+version: 1.0
+main: loosa.plugin.Randomitemplugin
+api-version: 1.17
+author: LoosaMagee
+description: A Minecraft plugin that gives players a random item every ten seconds.
 commands:
   run:
     description: Start the random item timer.
