@@ -1,4 +1,4 @@
-package loosa.randomitemplugin;
+package loosa.plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -25,7 +25,7 @@ public class Randomitemplugin extends JavaPlugin implements Listener {
     private boolean timerRunning = false;
     private int countdown = 10;
     private BossBar bossBar;
-//initialize
+    //initialize
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
@@ -33,7 +33,7 @@ public class Randomitemplugin extends JavaPlugin implements Listener {
         getCommand("stop").setExecutor(this);
         bossBar = Bukkit.createBossBar("Time left: 10 seconds", BarColor.GREEN, BarStyle.SEGMENTED_10);
     }
-//running
+    //running
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("run")) {
@@ -74,7 +74,7 @@ public class Randomitemplugin extends JavaPlugin implements Listener {
         }
         return false;
     }
-//function
+    //function
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
@@ -107,6 +107,3 @@ public class Randomitemplugin extends JavaPlugin implements Listener {
         return new ItemStack(materials[random.nextInt(materials.length)]);
     }
 }
-
-
-
