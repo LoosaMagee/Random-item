@@ -8,7 +8,7 @@ This Minecraft plugin adds a fun twist to gameplay by generating a random item f
 - Compatible with Minecraft servers running Bukkit/Spigot.
 
 ## Installation
-1. Download the latest release from (https://github.com/LoosaMagee/Random-item/blob/main/DONTDOWNLOADPLACEHOLDER.jar).
+1. Download the latest release from (https://github.com/LoosaMagee/Random-item/blob/main/LoosaRandomItem-1.0-SNAPSHOT.jar).
 2. Place the downloaded JAR file into the `plugins` folder of your Minecraft server.
 3. Restart the server to load the plugin.
 
